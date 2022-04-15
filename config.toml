@@ -1,4 +1,5 @@
 baseurl = "http://sunset1024star.github.io/"
+root = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Hugo Theme Dream"
