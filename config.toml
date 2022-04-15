@@ -1,9 +1,8 @@
 baseurl = "http://sunset1024star.github.io/"
-themes = "https://github.com/g1eny0ung/hugo-theme-dream.git dream"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Hugo Theme Dream"
-theme = "themes/dream"
+theme = 'dream'
 
 # copyright = ""
 
