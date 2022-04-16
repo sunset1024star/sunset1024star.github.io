@@ -1,7 +1,7 @@
 ---
 title: "Live2D初学习"
 date: 2022-03-27T00:29:52+08:00
-draft: true
+draft: false
 author: lilisaber
 cover: /img/sabersan.png
 images:

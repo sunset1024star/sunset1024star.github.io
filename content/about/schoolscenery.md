@@ -1,7 +1,7 @@
 ---
 title: "Scenery of school"
 date: 2022-01-10T00:10:25+08:00
-draft: true
+draft: false
 ---
 
 <img src="img/tiankong.png" width="100px">

@@ -12,6 +12,17 @@ theme = "dream"
 
 # enableRobotsTXT = true
 
+# hasCJKLanguage = true
+
+# Paginate = 6
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# http://sunset1024star.github.io/
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   background = "#fff"
   # backgroundImage = "/me/6._clear.jpg"

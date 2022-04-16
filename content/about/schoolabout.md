@@ -1,7 +1,7 @@
 ---
 title: "About my school—— Gongqing College of Nanchang University"
 date: 2022-01-10T00:13:09+08:00
-draft: true
+draft: false
 ---
 
 [**以下是我的学校简介**]

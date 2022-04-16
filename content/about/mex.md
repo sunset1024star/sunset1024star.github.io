@@ -1,7 +1,7 @@
 ---
 title: "Welcome to my palace"
 date: 2022-01-10T00:12:02+08:00
-draft: true
+draft: false
 ---
 
 [我自然是光年挑一啦😉]
