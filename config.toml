@@ -1,18 +1,12 @@
-baseurl = "https://sunset1024star.github.io/"
-languageCode = "en"
-defaultContentLanguage = "en"
-title = "Wish me to be your Excalibur"
-theme = "dream"
+# baseURL = 'http://sunset1024star.github.io/'
+# languageCode = 'en-us'
+# title = 'Wish me to be your Excalibur'
+# theme="dream"
 
-# copyright = ""
 
-# googleAnalytics = ""
+enableRobotsTXT = true
 
-# disqusShortname = ""
-
-# enableRobotsTXT = true
-
-# hasCJKLanguage = true
+hasCJKLanguage = true
 
 # Paginate = 6
 
@@ -25,21 +19,21 @@ theme = "dream"
 
 [params]
   background = "#fff"
-  # backgroundImage = "/me/6._clear.jpg"
+  backgroundImage = "/me/6._clear.jpg"
   linkColor = "seagreen"
 
   # dark mode
   # defaultDark = true
-  # backgroundDark = "#333"
-  # backgroundImageDark = "/me/6._clear.jpg"
-  # darkLinkColor = "darkseagreen"
+  backgroundDark = "#333"
+  backgroundImageDark = "/me/6._clear.jpg"
+  darkLinkColor = "darkseagreen"
   # darkNav = true
   # dark404 = true
 
   images = ["me/background.jpg"]
 
   author = "LiLisaber"
-  # description = "LiLisaber的学习记录～"
+  description = "LiLisaber的学习记录～"
   avatar = "/me/8.jpg"
   headerTitle = "LiLisaber的博客"
   motto = "曾经沧海难为水，除却巫山不是云"
@@ -49,52 +43,46 @@ theme = "dream"
 
   # footerBottomText = ""
 
-  # rss = true
+  rss = true
 
-  # utterancesRepo = "sunset1024star/sunset1024star.github.io"
+  utterancesRepo = "sunset1024star/sunset1024star.github.io"
 
   # valine = true
   # LEANCLOUD_APP_ID = ""
   # LEANCLOUD_APP_KEY = ""
-  # VALINE_LANGUAGE = ""
 
   email = "514563580@qq.com"
-  # twitter = ""
-  # facebook = ""
-  # instagram = ""
   # mastodon = ""
-  # linkedin = ""
-  # github = "https://github.com/sunset1024star/"
-  # stackoverflow = ""
-  # codepen = ""
+  # github = "LiLisaber"
 
-  siteStartYear = 2022
+  siteStartYear = 2021
 
-  # favicon = "/favicon.ico"
+  favicon = "/favicon.ico"
 
-  # highlightjs = true
+  highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  # highlightjsExtraLanguages = ["clojure", "ocaml"]
-  # highlightjsTheme = "tomorrow"
-  # highlightjsThemeDark = "tomorrow-night"
+  highlightjsExtraLanguages = ["clojure", "ocaml"]
+  highlightjsTheme = "tomorrow"
+  highlightjsThemeDark = "tomorrow-night"
 
   # search
-  # enableSearch = true
+  enableSearch = true
 
   # options
-  # showSummaryCoverInPost = true
+  showSummaryCoverInPost = true
   # hasTwitterEmbed = true
   # reversePostAndAside = true
   # shareInAside = true
-  # fixedNav = true
+  fixedNav = true
   # collapsibleTags = true
   # collapseBySummary = true
 
-  # [params.advanced]
-  #   customCSS = ["css/custom.css"]
-  #   customJSBefore = []
-  #   customJS = []
+[params.advanced]
+  customCSS = ["css/custom.css"]
+  # customJSBefore = []
+  # customJS = []
 
-  # [params.experimental]
-  #   jsDate = true
-  #   jsDateFormat = "yyyy年MM月dd日"
+[params.experimental]
+  jsDate = true
+  jsDateFormat = "yyyy年MM月dd日"
+  # jsDateFormat = "yyyy年MM月dd日，cccc"
