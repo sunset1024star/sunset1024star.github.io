@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home | LiLisaber&#39;s blog</title>
+    <title>Home | </title>
 
     
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 
 
-<meta name="author" content="Yue Yang" />
-<meta name="description" content="" />
+
+<meta name="author" content="LiLisaber" />
+<meta name="description" content="LiLisaber的学习记录～" />
 
 
 
-<meta name="generator" content="Hugo 0.61.0" />
+<meta name="generator" content="Hugo 0.91.2" />
 
-<link rel="canonical" href="https://sunset1024star.github.io/" />
+<link rel="canonical" href="/" />
 
 
-<meta property="og:title" content="LiLisaber&#39;s blog" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="LiLisaber的学习记录～" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://sunset1024star.github.io/" />
-<meta property="og:updated_time" content="2022-01-10T16:00:06+08:00" />
+<meta property="og:url" content="/" /><meta property="og:image" content="me/background.jpg"/>
 
 
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="LiLisaber&#39;s blog"/>
-<meta name="twitter:description" content=""/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="me/background.jpg"/>
+
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="LiLisaber的学习记录～"/>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
@@ -51,23 +55,41 @@
   
 
   
+  .inverted a:not(.item, .ui.button) {
+     color: darkseagreen !important;
+  }
+  
 
   
   body.default {
     
-    background-color: #f7f7f7;
+    background-color: #fff;
     
 
+    
+    background-image: url(/me/6._clear.jpg);
     
   }
   
 
+  
+  body.dark {
+    
+    background-color: #333;
+    
+
+    
+    background-image: url(/me/6._clear.jpg);
+    
+  }
   
 </style>
 
 
      
 
+    
+    <link rel="stylesheet" href="/css/custom.css" />
     
   </head>
 
@@ -78,10 +100,18 @@
   <a class="item dream-flip-toggle" title="Flip it!">
     <i class="large link bullseye icon"></i>
   </a>
-  <a class="item" href="https://sunset1024star.github.io/" title="Home">
+  <a class="item" href="" title="Home">
     <i class="large link home icon"></i>
   </a>
   
+  <a class="item" onclick="themeSwitch(event)">
+    <i class="large link icon theme-switch"></i>
+  </a>
+  
+  
+  <a class="item" title="Search" onclick="toggleSearch(event)">
+    <i class="large link search icon"></i>
+  </a>
   
 </nav>
 
@@ -94,12 +124,12 @@
 <header class="ui basic very padded segment dream-header">
   
   <div class="ui small circular image">
-    <img src="/img/avatar.jpeg" alt="avatar" />
+    <img src="/me/8.jpg" alt="avatar" />
   </div>
   
 
   <div class="content">
-    <h1 class="ui medium header">Hugo Theme Dream<span class="sub header">Motto</span>
+    <h1 class="ui medium header">LiLisaber的博客<span class="sub header">曾经沧海难为水，除却巫山不是云</span>
     </h1>
 
     <article class="ui horizontal list">
@@ -133,6 +163,14 @@
     
       
     
+      
+    
+      
+    
+      
+    
+      
+    
     
 
     
@@ -144,8 +182,26 @@
           
           
           
+            <a class="ui label" href="/tags/jsphtmlcss/" title="JSP、HTML、CSS">
+              JSP、HTML、CSS
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/live2d/" title="Live2D">
+              Live2D
+            </a>
+          
+          
+          
             <a class="ui label" href="/tags/%E4%B8%80%E9%A9%AC%E5%BD%93%E5%85%88/" title="一马当先">
               一马当先
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E4%B8%8D%E7%A0%B4%E4%B8%8D%E7%AB%8B/" title="不破不立">
+              不破不立
             </a>
           
           
@@ -158,6 +214,12 @@
           
             <a class="ui label" href="/tags/%E5%85%A8%E5%AB%A9%E9%80%89%E6%89%8B/" title="全嫩选手">
               全嫩选手
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E5%AD%A6%E7%A1%95%E4%B8%8E%E4%B8%93%E7%A1%95/" title="学硕与专硕">
+              学硕与专硕
             </a>
           
           
@@ -192,7 +254,155 @@
   <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
     <article class="ui attached segment card dream-card">
   
-  <a class="image" href="https://sunset1024star.github.io/posts/hugoblog%E5%B0%9D%E8%AF%95%E7%BB%8F%E5%8E%86/">
+  <a class="image" href="/posts/live2d%E5%88%9D%E5%AD%A6%E4%B9%A0/">
+    
+    <img src="/img/sabersan.png" alt="Live2D初学习" />
+    
+  </a>
+  
+
+  
+  <div class="content">
+  
+    <h2 class="ui medium header">
+      <a href="/posts/live2d%E5%88%9D%E5%AD%A6%E4%B9%A0/">Live2D初学习</a>
+    </h2>
+    <div class="meta">
+      <p class="date">
+        
+          <span data-format="luxon">2022-03-27T00:29:52&#43;08:00</span>
+        
+      </p>
+    </div>
+    <div class="description">
+      <p>2022/03/27 in a review</p>
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="author">@&nbsp;lilisaber</div>
+    <div class="reading-time">
+      <i class="clock icon"></i>3 minutes read</div>
+  </div>
+</article>
+
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    <article class="ui attached segment card dream-card">
+  
+  <a class="image" href="/posts/%E8%80%83%E7%A0%94%E5%B8%83%E5%B1%80%E7%BB%8F%E9%AA%8C%E8%B4%B4/">
+    
+    <img src="/img/yundonghui1.png" alt="考研布局经验贴" />
+    
+  </a>
+  
+
+  
+  <div class="content">
+  
+    <h2 class="ui medium header">
+      <a href="/posts/%E8%80%83%E7%A0%94%E5%B8%83%E5%B1%80%E7%BB%8F%E9%AA%8C%E8%B4%B4/">考研布局经验贴</a>
+    </h2>
+    <div class="meta">
+      <p class="date">
+        
+          <span data-format="luxon">2022-03-21T22:36:17&#43;08:00</span>
+        
+      </p>
+    </div>
+    <div class="description">
+      <p>2022/03/21 in a review</p>
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="author">@&nbsp;lilisaber</div>
+    <div class="reading-time">
+      <i class="clock icon"></i>2 minutes read</div>
+  </div>
+</article>
+
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    <article class="ui attached segment card dream-card">
+  
+  <a class="image" href="/posts/%E8%80%83%E7%A0%94%E4%B8%93%E7%A1%95%E5%AD%A6%E7%A1%95%E4%B9%8B%E5%88%AB/">
+    
+    <img src="/img/zaoaning.png" alt="考研专硕学硕之别" />
+    
+  </a>
+  
+
+  
+  <div class="content">
+  
+    <h2 class="ui medium header">
+      <a href="/posts/%E8%80%83%E7%A0%94%E4%B8%93%E7%A1%95%E5%AD%A6%E7%A1%95%E4%B9%8B%E5%88%AB/">考研专硕学硕之别</a>
+    </h2>
+    <div class="meta">
+      <p class="date">
+        
+          <span data-format="luxon">2022-02-27T19:25:59&#43;08:00</span>
+        
+      </p>
+    </div>
+    <div class="description">
+      <p>2022/02/27 in a review.</p>
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="author">@&nbsp;可可妈妈教育日记（转载）</div>
+    <div class="reading-time">
+      <i class="clock icon"></i>4 minutes read</div>
+  </div>
+</article>
+
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    <article class="ui attached segment card dream-card">
+  
+  <a class="image" href="/posts/html%E6%A0%87%E7%AD%BE%E6%A6%82%E5%8F%99/">
+    
+    <img src="/img/CSS.jpg" alt="HTML标签概叙" />
+    
+  </a>
+  
+
+  
+  <div class="content">
+  
+    <h2 class="ui medium header">
+      <a href="/posts/html%E6%A0%87%E7%AD%BE%E6%A6%82%E5%8F%99/">HTML标签概叙</a>
+    </h2>
+    <div class="meta">
+      <p class="date">
+        
+          <span data-format="luxon">2022-01-16T21:42:12&#43;08:00</span>
+        
+      </p>
+    </div>
+    <div class="description">
+      <p>2022/01/16 in a review.</p>
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="author">@&nbsp;LiLisaber</div>
+    <div class="reading-time">
+      <i class="clock icon"></i>15 minutes read</div>
+  </div>
+</article>
+
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    <article class="ui attached segment card dream-card">
+  
+  <a class="image" href="/posts/hugoblog%E5%B0%9D%E8%AF%95%E7%BB%8F%E5%8E%86/">
     
     <img src="/img/%e5%9b%be%e4%b9%a6.jpg" alt="第一次尝试Hugo博客" />
     
@@ -207,7 +417,9 @@
     </h2>
     <div class="meta">
       <p class="date">
-        Monday, Jan 10, 2022
+        
+          <span data-format="luxon">2022-01-10T16:00:06&#43;08:00</span>
+        
       </p>
     </div>
     <div class="description">
@@ -218,7 +430,7 @@
   <div class="extra content">
     <div class="author">@&nbsp;LiLisaber</div>
     <div class="reading-time">
-      <i class="clock icon"></i>1 minute read</div>
+      <i class="clock icon"></i>2 minutes read</div>
   </div>
 </article>
 
@@ -236,7 +448,7 @@
 
             <footer class="ui basic center aligned segment" style="background-color: transparent;">
               
-              <p>© 2016 - 2022 LiLisaber&#39;s blog</p>
+              <p>© 2021 - 2022 </p>
               
 
               <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
@@ -250,12 +462,12 @@
             <header class="ui basic very padded segment dream-header">
   
   <div class="ui small circular image">
-    <img src="/img/avatar.jpeg" alt="avatar" />
+    <img src="/me/8.jpg" alt="avatar" />
   </div>
   
 
   <div class="content">
-    <h1 class="ui medium header">Hugo Theme Dream<span class="sub header">Motto</span>
+    <h1 class="ui medium header">LiLisaber的博客<span class="sub header">曾经沧海难为水，除却巫山不是云</span>
     </h1>
 
     <article class="ui horizontal list">
@@ -289,6 +501,14 @@
     
       
     
+      
+    
+      
+    
+      
+    
+      
+    
     
 
     
@@ -300,8 +520,26 @@
           
           
           
+            <a class="ui label" href="/tags/jsphtmlcss/" title="JSP、HTML、CSS">
+              JSP、HTML、CSS
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/live2d/" title="Live2D">
+              Live2D
+            </a>
+          
+          
+          
             <a class="ui label" href="/tags/%E4%B8%80%E9%A9%AC%E5%BD%93%E5%85%88/" title="一马当先">
               一马当先
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E4%B8%8D%E7%A0%B4%E4%B8%8D%E7%AB%8B/" title="不破不立">
+              不破不立
             </a>
           
           
@@ -314,6 +552,12 @@
           
             <a class="ui label" href="/tags/%E5%85%A8%E5%AB%A9%E9%80%89%E6%89%8B/" title="全嫩选手">
               全嫩选手
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E5%AD%A6%E7%A1%95%E4%B8%8E%E4%B8%93%E7%A1%95/" title="学硕与专硕">
+              学硕与专硕
             </a>
           
           
@@ -349,21 +593,81 @@
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment markdown-body">
       <div class="ui medium header">About my school—— Gongqing College of Nanchang University</div>
-      
+      <p>[<strong>以下是我的学校简介</strong>]</p>
+<blockquote>
+<p>以下摘自百度百科</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>南昌大学共青学院</strong>，位于江西省九江市共青城市南昌大学鄱阳湖校区，办学始于<strong>1985年</strong>，原名为“<strong>江西大学共青职业学院</strong>”由江西大学（现南昌大学）和共青城开放开发区（现共青城市人民政府）共同组建，主管部门为省部级以上政府、机关 ，时任中共中央总书记胡耀邦同志亲自为学院题写院名。</p>
+</li>
+<li>
+<p><strong>1991年</strong>，学院更名为“<strong>江西大学共青学院</strong>”。</p>
+</li>
+<li>
+<p><strong>1993年</strong>，原江西大学和江西工业大学合并成立南昌大学，学院遂更名为<strong>南昌大学共青学院</strong>。</p>
+</li>
+<li>
+<p><strong>2002年</strong>，由<strong>南昌大学</strong>、<strong>共青城市人民政府</strong>与<strong>江西昌振实业有限公司</strong>三方合作办学，经江西省教育厅、江西省发展计划委员会批准成为一所本科综合独立学院。</p>
+</li>
+<li>
+<p><strong>2021年</strong>，<strong>四川希望教育产业集团有限公司入驻学院</strong>，<strong>大力改善基础办学条件</strong>，<strong>学院步入快速发展阶段，同时对学院“十四五”教育事业发展规划进行顶层设计</strong>，<strong>学院发展的宏伟蓝图徐徐展开</strong>。</p>
+</li>
+<li>
+<p>现设有信息工程系、工程技术系、经济贸易系、工商管理系、外国语言文学系、艺术与设计系、中文与教育系7个系和公共课教学部、实验中心共9个教学单位，下设34个教研室，开设有21个本科专业及20个专科专业。有1个科研机构艺术与设计研究所。占地面积 1041亩，现有在校生1万余人 。</p>
+</li>
+</ul>
+
     </article>
   </div>
   
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment markdown-body">
       <div class="ui medium header">Welcome to my palace</div>
-      
+      <p>[我自然是光年挑一啦😉]</p>
+<p>LiLisaber 的 ❤️ 博客</p>
+<p>记录一些 🌈 生活上，学习上的事</p>
+<p>~~ 我是一名南大共院🏫的大学生🤪 ~~</p>
+<p><strong>我的目标是✊</strong></p>
+<ul>
+<li>
+<p>学习一切可能学习的技术(～￣▽￣)～</p>
+</li>
+<li>
+<p>体验所有可能接触到的游戏ヾ(≧▽≦*)o</p>
+</li>
+<li>
+<p>拿下一切可能拿下的证书( •̀ ω •́ )✧</p>
+</li>
+</ul>
+<p><strong>但是嘛</strong></p>
+<p>月有阴晴圆缺，人也有参差不齐呀&hellip;</p>
+<p>我自然是拿下了<strong>所有目标</strong></p>
+<p>😏😏😏😏😏😏😏😏😏😏</p>
+<p>里的第二个😅</p>
+<p>但是我一定会努力实现自己的目标的，钢八雷👊！！！</p>
+<p>&ndash; 2022 年 01 月 09 日更新</p>
+<p>-距离毕业还有<strong>一年</strong></p>
+
     </article>
   </div>
   
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment markdown-body">
       <div class="ui medium header">Scenery of school</div>
-      
+      <img src="img/tiankong.png" width="100px">
+<img src="img/yundonghui.png" width="100px">
+<img src="img/yuantiao.png" width="100px">
+<img src="img/zaoan.png" width="100px">
+<img src="img/tushuguang.png" width="100px">
+<img src="img/chitang.png" width="100px">
+<img src="img/shiyanlou.png" width="100px">
+<img src="img/honglou.png" width="100px">
+<img src="img/xiaguang.png" width="100px">
+<img src="img/yvtang.png" width="100px">
+<img src="img/luori.png" width="100px">
+<img src="img/yejing.png" width="100px">
+
     </article>
   </div>
   
@@ -373,9 +677,13 @@
       <div class="ui medium header">Social Links</div>
       <nav class="ui secondary menu dream-menu dream-socials">
   
+  <a class="item" href="/index.xml">
+    <i class="large rss square icon" title="RSS"></i>
+  </a>
+  
 
   
-  <a class="item" href="mailto:g1enyy0ung@gmail.com">
+  <a class="item" href="mailto:514563580@qq.com">
     <i class="large mail icon" title="Email"></i>
   </a>
   
@@ -445,18 +753,40 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
     
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('/index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
 
     
 
     <script>
-  window.background = "#f7f7f7"
+  window.background = "#fff"
   window.defaultDark =  null 
-  window.backgroundDark =  null 
-  window.backgroundImageDark =  null 
+  window.backgroundDark = "#333"
+  window.backgroundImageDark = "/me/6._clear.jpg"
   window.darkNav =  null 
   window.maxTags =  null 
   window.hasTwitterEmbed =  null 
-  window.fixedNav =  null 
+  window.fixedNav =  true 
 
   if (window.hasTwitterEmbed) {
     
@@ -485,6 +815,21 @@
 <script src="/js/theme.js"></script>
 
     
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"></script>
+
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "en" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
 
 
 
