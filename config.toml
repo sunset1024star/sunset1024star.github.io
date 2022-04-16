@@ -1,7 +1,7 @@
 baseurl = "https://sunset1024star.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "LiLisaber's blog"
+title = "Wish me to be your Excalibur"
 theme = "dream"
 
 # copyright = ""
@@ -13,23 +13,25 @@ theme = "dream"
 # enableRobotsTXT = true
 
 [params]
-  background = "#f7f7f7"
-  # backgroundImage = "/me/background.jpg"
+  background = "#fff"
+  # backgroundImage = "/me/6._clear.jpg"
   linkColor = "seagreen"
 
   # dark mode
   # defaultDark = true
-  # backgroundDark = "black"
-  # backgroundImageDark = "/me/background-dark.jpg"
+  # backgroundDark = "#333"
+  # backgroundImageDark = "/me/6._clear.jpg"
   # darkLinkColor = "darkseagreen"
   # darkNav = true
   # dark404 = true
 
-  author = "Yue Yang"
-  # description = ""
-  avatar = "/img/avatar.jpeg"
-  headerTitle = "Hugo Theme Dream"
-  motto = "Motto"
+  images = ["me/background.jpg"]
+
+  author = "LiLisaber"
+  # description = "LiLisaber的学习记录～"
+  avatar = "/me/8.jpg"
+  headerTitle = "LiLisaber的博客"
+  motto = "曾经沧海难为水，除却巫山不是云"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
@@ -38,32 +40,32 @@ theme = "dream"
 
   # rss = true
 
-  # utterancesRepo = ""
+  # utterancesRepo = "sunset1024star/sunset1024star.github.io"
 
   # valine = true
   # LEANCLOUD_APP_ID = ""
   # LEANCLOUD_APP_KEY = ""
   # VALINE_LANGUAGE = ""
 
-  email = "g1enyy0ung@gmail.com"
+  email = "514563580@qq.com"
   # twitter = ""
   # facebook = ""
   # instagram = ""
   # mastodon = ""
   # linkedin = ""
-  # github = ""
+  # github = "https://github.com/sunset1024star/"
   # stackoverflow = ""
   # codepen = ""
 
-  siteStartYear = 2016
+  siteStartYear = 2022
 
   # favicon = "/favicon.ico"
 
   # highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  # highlightjsExtraLanguages = ["ocaml"]
-  # highlightjsTheme = "gruvbox-light"
-  # highlightjsThemeDark = "gruvbox-dark"
+  # highlightjsExtraLanguages = ["clojure", "ocaml"]
+  # highlightjsTheme = "tomorrow"
+  # highlightjsThemeDark = "tomorrow-night"
 
   # search
   # enableSearch = true
