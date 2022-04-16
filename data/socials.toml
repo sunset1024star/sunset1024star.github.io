@@ -1,0 +1,9 @@
+socials = [
+  { href = "https://github.com/sunset1024star", target="_blank", icon = "twitter", title = "Twitter" },
+  { href = "https://github.com/sunset1024star", target="_blank", icon = "facebook", title = "Facebook" },
+  { href = "https://github.com/sunset1024star", target="_blank", icon = "instagram", title = "Instagram" },
+  { href = "https://github.com/sunset1024star", icon = "linkedin", title = "Linkedin" },
+  { href = "https://github.com/sunset1024star", target="_blank", icon = "github", title = "GitHub" },
+  { href = "https://github.com/sunset1024star", target="_blank", icon = "stack overflow", title = "stack overflow" },
+  #{ href = "https://github.com/sunset1024star", target="_blank", icon = "codepen", title = "Codepen" },
+]
