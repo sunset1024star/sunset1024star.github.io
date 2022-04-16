@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Theme Dream</title>
-    <link>https://sunset1024star.github.io/</link>
+    <link>https://sunset1024star.github.io/tree/develop/</link>
     <description>Recent content on Hugo Theme Dream</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://sunset1024star.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://sunset1024star.github.io/tree/develop/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
