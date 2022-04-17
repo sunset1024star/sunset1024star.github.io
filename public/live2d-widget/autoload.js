@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://github.com/sunset1024star/sunset1024star.github.io/tree/develop/live2d-widget/";
+const live2d_path = "https://github.com/sunset1024star/sunset1024star.github.io/tree/develop/public/live2d-widget/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
