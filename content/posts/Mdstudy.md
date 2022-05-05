@@ -1,7 +1,7 @@
 ---
 title: "Mdstudy"
 date: 2022-05-06T03:57:30+08:00
-draft: true
+draft: false
 author: lilisaber
 cover: /img/Typora.png
 image:
